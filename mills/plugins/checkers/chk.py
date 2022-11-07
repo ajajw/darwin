@@ -43,7 +43,7 @@ async def _(m, gate_db, user_db, cards, lang):
     ))
     browser = requests.Session()
     if proxy:= await m.adb.get_key('use_proxy'):
-        browser.proxies = {'http': proxy, 'https': proxy}
+        browser.proxies = {'http': 'http://zyerfteb-rotate:u9byqore4j2y@p.webshare.io:80/', 'https': 'http://zyerfteb-rotate:u9byqore4j2y@p.webshare.io:80/'}
     sec = chk_one(browser, rand_user)
     if not sec:
         await message.edit("Error while checking your card. trying again....")
