@@ -13,7 +13,7 @@
 - <code>/calender</code>: Get current month calender.
 ──────────────────────
 
-©<a href="https://t.me/roldexverse">RoldexVerse</a>
+©<a href="https://t.me/DiegoAkk">Dieguito</a>
 """
 import calendar
 from datetime import datetime
@@ -49,10 +49,10 @@ async def _(m,lang):
     buttons = [
         [
             Button.url("Support", f'https://t.me/{SUPPORT_CHAT}'),
-            Button.url("Source code", 'https://t.me/r0ld3x'),
+            Button.url("Source code", 'https://t.me/DiegoAkk'),
         ],[
-            Button.url("Donate", 'https://www.buymeacoffee.com/r0ld3x'),
-            Button.url("Owner", 'https://t.me/r0ld3x'),
+            Button.url("Donate", 'https://www.buymeacoffee.com/Diegox'),
+            Button.url("Owner", 'https://t.me/DiegoAkk'),
         ]
     ]
     link = await m.client.download_profile_photo(m.sender_id)
