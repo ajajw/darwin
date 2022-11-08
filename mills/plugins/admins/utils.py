@@ -59,7 +59,7 @@ async def _(m):
         return m.sod(f"<code>{m.chat_id}</code> already added.")
     test = await m.adb.set_key(f'approved_{str(m.chat_id)}', m.chat_id)
     if test:
-        await m.sod("Chat Added Successfully", time = 5)
+        await m.sod("𝗖𝗵𝗮𝘁 𝗔𝗱𝗱𝗲𝗱 𝗦𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹𝗹𝘆", time = 5)
     else:
         await m.sod(f"{str(test)}", time = 5)
 
@@ -72,7 +72,7 @@ async def _(m):
         return m.sod(f"<code>{m.chat_id}</code> not added.")
     test = await m.adb.del_key(f'approved_{str(m.chat_id)}')
     if test:
-        await m.sod("Chat Removed Successfully", time = 5)
+        await m.sod("𝘾𝙝𝙖𝙩 𝙍𝙚𝙢𝙤𝙫𝙚𝙙 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮", time = 5)
     else: await m.sod(f"Chat not authorized may be.", time = 5)
 
 
