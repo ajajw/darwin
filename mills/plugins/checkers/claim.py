@@ -55,7 +55,7 @@ async def _(m):
     
     insert = await m.mdb.update_one('users', filter,data)
     if insert:
-        await m.sod("You have claimed your key successfully. now your **Premium** plan will expire on {} {}".format(is_key['data'], is_key['time_type']), time = 5) 
+        await m.sod("𝗬𝗼𝘂 𝗵𝗮𝘃𝗲 𝗰𝗹𝗮𝗶𝗺𝗲𝗱 𝘆𝗼𝘂𝗿 𝗸𝗲𝘆 𝘀𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹𝗹𝘆. 𝗻𝗼𝘄 𝘆𝗼𝘂𝗿 **𝗣𝗿𝗲𝗺𝗶𝘂𝗺** 𝗽𝗹𝗮𝗻 𝘄𝗶𝗹𝗹 𝗲𝘅𝗽𝗶𝗿𝗲 𝗼𝗻 {} {}".format(is_key['data'], is_key['time_type']), time = 5) 
         await m.client.send_message(LOG_CHAT,  f"{m.sender_id} Claimed Key: {params}")
     else:
         await m.sod("Error while claiming key", time = 5)
