@@ -3,10 +3,10 @@ API_HASH: d26cadc9215f79d6e8f1cca1c4a8f04b
 BOT_TOKEN: 5902161959:AAGXf6w5daxy7WU--Cmta3Y1XCmY65DCpHI
 
 
-MONGO_URL: mongodb+srv://root:UnXrKDvP63NIIpKh@cluster0.7qbzdm3.mongodb.net/?retryWrites=true&w=majority
-REDIS_URI: redis-19860.c8.us-east-1-4.ec2.cloud.redislabs.com
-REDIS_PORT: 19860
-REDIS_PASS: 7Q4onDm2yyYwCM8EGDwyz0EUR59ej7Pz
+MONGO_URL: mongodb+srv://root:zXIz54dq1VEqIEJo@root.bxe6t3t.mongodb.net/?retryWrites=true&w=majority
+REDIS_URI: redis-12364.c84.us-east-1-2.ec2.cloud.redislabs.com
+REDIS_PORT: 12364
+REDIS_PASS: T8Ymh5ZY56VejX38y5i2m5mqOOcRs1My
 
 SESSION_API_ID: 10738933
 SESSION_API_HASH: d26cadc9215f79d6e8f1cca1c4a8f04b
